@@ -8,5 +8,10 @@ function pigLatin(phrase) {
             vowelResults.push(word + "way");
             console.log(vowelResults)
         }
+        if (word.substring(0, 2) === "qu") {
+            let newWord = word.slice(2);
+            vowelResults.push(newWord + "quay");
+            console.log(vowelResults);
+        }
     });
 }
