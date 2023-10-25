@@ -11,3 +11,9 @@ Code:
 let phrase = "quick";
 pigLatin(phrase);
 Expected Output: "ickquay"
+
+Test #3: "It will move consonant values until it reaches a vowel and then add 'ay'"
+Code:
+let phrase = "code";
+pigLatin(phrase);
+Expected Output: "odecay"
