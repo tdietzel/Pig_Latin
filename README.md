@@ -18,7 +18,7 @@ let phrase = "code";
 pigLatin(phrase);
 Expected Output: "odecay"
 
-Test: "It will move the first consonant to the back and add 'ay' if 'qu' comes second."
+Test #4: "It will move the first consonant to the back and add 'ay' if 'qu' comes second."
 Code:
 let phrase = "squeal";
 pigLatin(phrase);
