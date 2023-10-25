@@ -15,6 +15,10 @@ function pigLatin(phrase) {
             let newWord = word.slice(2);
             vowelResults.push(newWord + "quay");
             console.log(vowelResults);
+        } else if (word.substring(1, 3) === "qu") {
+            let newWord = word.slice(1);
+            vowelResults.push(newWord + word[0] + "ay");
+            console.log(vowelResults);
         } else {
             letterArray = word.split('')
             //maybe not a forEach loop?
