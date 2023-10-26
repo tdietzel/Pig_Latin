@@ -68,3 +68,9 @@ __Code:__
 let phrase = "squeal";
 pigLatin(phrase);
 __Expected Output:__ "quealsay"
+
+__Test #5__: "It will return pig latin for more than one word."
+__Code:__
+let phrase = "squeal";
+pigLatin(phrase);
+__Expected Output:__ "awayway odecay ickquay quealsay"
